@@ -1,0 +1,43 @@
+urban-jungle/
+├── 📁 app/
+│   ├── main.py                # Flask/FastAPI backend
+│   ├── routes.py              # API endpoints
+│   ├── models.py              # ML/RL models and prediction logic
+│   ├── utils.py               # Helper functions
+│   ├── database.py            # Firebase/Firestore integration
+│   └── config.py              # Configs and API keys
+│
+├── 📁 mobile_app/
+│   ├── 📁 android/ios/        # ARCore/ARKit project files
+│   └── 📁 unity_game/         # Unity project (virtual city game)
+│
+├── 📁 ml_models/
+│   ├── air_quality_predictor.pkl
+│   ├── rl_agent_model.pkl
+│   ├── tree_detector_yolo.pt
+│   └── training_notebooks/
+│       └── train_rl_agent.ipynb
+│
+├── 📁 frontend/
+│   ├── 📁 public/
+│   ├── 📁 src/
+│   │   ├── App.js
+│   │   ├── Map.js
+│   │   ├── Dashboard.js
+│   │   └── components/
+│   └── 📄 package.json
+│
+├── 📁 data/
+│   ├── air_quality/
+│   ├── green_cover/
+│   └── sample_uploads/
+│
+├── 📁 docs/
+│   ├── architecture_diagram.png
+│   ├── flowchart.pdf
+│   └── presentation.pptx
+│
+├── .env.example              # API keys template
+├── requirements.txt          # Backend Python dependencies
+├── README.md                 # Project overview
+└── LICENSE
