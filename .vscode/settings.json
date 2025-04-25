@@ -1,0 +1,5 @@
+{
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/home/nikhil/myenv"
+    ]
+}
